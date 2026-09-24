@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidad — RunUp</title>
+<style>
+  :root {
+    --bg: #F4F2ED; --surface: #FFFFFF; --text: #12172B;
+    --text-secondary: #5F5E5A; --accent: #FF5C35; --border: #E4E2D8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0D1120; --surface: #161B2E; --text: #F4F2ED; --text-secondary: #A8A6A0; --border: #2A2E42; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; }
+  .container { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+  .wordmark { font-size: 20px; font-weight: 700; margin-bottom: 8px; }
+  .wordmark .up { color: var(--accent); font-style: italic; }
+  h1 { font-size: 26px; margin: 0 0 8px; }
+  .meta { color: var(--text-secondary); font-size: 14px; margin-bottom: 24px; }
+  h2 { font-size: 19px; margin-top: 40px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+  h3 { font-size: 16px; margin-top: 24px; }
+  p, li { font-size: 15px; }
+  ul { padding-left: 20px; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 18px 20px; margin: 16px 0; }
+  a { color: var(--accent); }
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+  th, td { text-align: left; padding: 10px; border-bottom: 1px solid var(--border); }
+  th { color: var(--text-secondary); }
+  footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--border); color: var(--text-secondary); font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="wordmark">run<span class="up">up</span></div>
+<h1>Política de Privacidad</h1>
+<div class="meta">Última actualización: 23 de septiembre de 2026</div>
+
+<p>Esta Política de Privacidad describe qué datos recolecta RunUp, para qué los usamos, con quién los compartimos y qué derechos tenés sobre ellos. RunUp es una aplicación de planes de entrenamiento de running operada desde Argentina.</p>
+
+<h2>1. Qué datos recolectamos</h2>
+<h3>Datos de cuenta</h3>
+<ul><li>Email (siempre)</li><li>Nombre completo, si te registrás con Apple o Google</li></ul>
+<h3>Datos de entrenamiento</h3>
+<ul>
+  <li>Tu nivel, objetivo de carrera, días disponibles y carrera reciente</li>
+  <li>El plan de entrenamiento generado y tu progreso sobre él</li>
+  <li>Sesiones registradas manualmente o mediante tracking GPS: distancia, duración, ritmo, esfuerzo y notas</li>
+</ul>
+<h3>Datos de ubicación</h3>
+<ul>
+  <li>Ubicación GPS en tiempo real durante el tracking de carrera (solo mientras la sesión está activa)</li>
+  <li>Ubicación aproximada para mostrar el clima</li>
+</ul>
+<h3>Datos de salud</h3>
+<ul><li>Si conectás Salud de Apple, leemos tus entrenamientos de running de los últimos 30 días, y escribimos ahí las carreras trackeadas. Es opcional.</li></ul>
+<h3>Otros datos</h3>
+<ul><li>Token de notificaciones push, si las activás</li><li>Puntos acumulados y participación en sorteos</li></ul>
+
+<h2>2. Para qué usamos tus datos</h2>
+<ul>
+  <li>Generar y ajustar tu plan de entrenamiento</li>
+  <li>Registrar y mostrar tu progreso e historial</li>
+  <li>Calcular y otorgar puntos por actividad verificada</li>
+  <li>Enviarte recordatorios y resúmenes, si activaste notificaciones</li>
+  <li>Mantener la seguridad de la app y prevenir abuso</li>
+</ul>
+<p>No vendemos tus datos a terceros con fines publicitarios.</p>
+
+<h2>3. Con quién compartimos datos</h2>
+<table>
+<tr><th>Proveedor</th><th>Qué recibe</th><th>Para qué</th></tr>
+<tr><td>Supabase</td><td>Todos los datos de tu cuenta y actividad</td><td>Backend de la app</td></tr>
+<tr><td>Apple / Google</td><td>Email y nombre</td><td>Inicio de sesión</td></tr>
+<tr><td>OpenWeatherMap</td><td>Coordenadas aproximadas</td><td>Clima del día</td></tr>
+<tr><td>Apple (HealthKit)</td><td>Datos de entrenamiento</td><td>Sincronización opcional</td></tr>
+</table>
+
+<h2>4. Seguridad</h2>
+<p>Tus datos están protegidos con reglas de seguridad a nivel de fila (Row Level Security). Las conexiones están cifradas.</p>
+
+<h2>5. Tus derechos</h2>
+<p>De acuerdo con la Ley 25.326 de Argentina y estándares como el RGPD, tenés derecho a acceder, corregir y eliminar tu cuenta y tus datos.</p>
+<div class="card">Para eliminar tu cuenta: <strong>Ajustes → Privacidad y datos → Eliminar mi cuenta</strong>, dentro de la app.</div>
+
+<h2>6. Retención de datos</h2>
+<p>Conservamos tus datos mientras tu cuenta esté activa. Al eliminarla, se borran de forma permanente.</p>
+
+<h2>7. Menores de edad</h2>
+<p>RunUp no está dirigida a menores de 13 años.</p>
+
+<h2>8. Cambios a esta política</h2>
+<p>Publicaremos cualquier cambio en esta misma página con la fecha actualizada.</p>
+
+<h2>9. Contacto</h2>
+<p>Escribinos a <a href="mailto:mensualito1@gmail.com">mensualito1@gmail.com</a>.</p>
+
+<footer>RunUp — Buenos Aires, Argentina</footer>
+</div>
+</body>
+</html>
